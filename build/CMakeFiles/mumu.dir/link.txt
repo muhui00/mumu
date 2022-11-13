@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined  -shared -Wl,-soname,libmumu.so -o ../lib/libmumu.so CMakeFiles/mumu.dir/mumu/log.cc.o CMakeFiles/mumu.dir/mumu/util.cc.o CMakeFiles/mumu.dir/mumu/config.cc.o CMakeFiles/mumu.dir/mumu/thread.cc.o 
